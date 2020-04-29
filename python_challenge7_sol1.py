@@ -19,10 +19,10 @@ data_dict = {
 
 data_dict['title'] = input('Whats the title? ')
 data_dict['body'] = input('Whats the body? ')
-
+headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
 json_data = json.dumps(data_dict)
 
-r = requests.post('https://jsonplaceholder.typicode.com/posts/', data=json_data)
+r = requests.post('https://jsonplaceholder.typicode.com/posts/', data=json_data , headers=headers)
 
 print(f'you sent {json_data}')
 print(f'we got back {r.text}')

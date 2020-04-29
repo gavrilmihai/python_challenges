@@ -1,0 +1,7 @@
+device,csr1kv,asav,vios
+hostname,r1-csr1kv,f1-asav,r2-vios
+domain_name,py.init,py.init,py.init
+username,squirrel1,squirrel2,squirrel3
+password,secretsquirrel43,secretsquirrel42,secretsquirrel9
+ip_address,192.168.1.1,192.168.22.22,192.168.33.33
+ip_netmask,255.255.255.0,255.255.0.0,255.0.0.0
