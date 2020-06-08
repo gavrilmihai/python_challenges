@@ -1,0 +1,1 @@
+MY_device,IOS-XE,192.66.66.1,cisco,paddlepass
